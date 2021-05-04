@@ -1,0 +1,28 @@
+a {
+    padding: 3%;
+    color: #555;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+a:hover {
+    opacity: 72%;
+}
+
+.header-center {
+    flex: 1 1 auto;
+    text-align: center ;
+}
+
+mat-toolbar{
+    height: 150px;
+    flex: auto;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+
