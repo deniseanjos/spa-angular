@@ -1,0 +1,17 @@
+<div id="produtos">
+    <h1>Produtos</h1>
+    <div class="content">
+        <div fxLayout="row wrap" fxLayoutGap="30px grid">
+            <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let produto of listaProdutos">
+                <mat-card>
+                    <img mat-card-image src="{{produto.imagem}}" alt="">
+                    <mat-card-title>{{produto.titulo}}</mat-card-title>
+                    <mat-card-content>
+                        {{produto.descricao}}
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+
+</div>
